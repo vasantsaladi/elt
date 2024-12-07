@@ -33,7 +33,7 @@ services:
     networks:
       - elt_network
     depends_on:
-      - source_postgres
+      - source_postgres  
       - destination_postgres
 
 networks:
